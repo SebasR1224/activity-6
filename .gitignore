@@ -1,0 +1,86 @@
+# Sistema de archivos
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# Archivos de compilación
+/dist
+/build
+/target
+
+# Dependencias
+/node_modules
+/vendor
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Configuración del IDE
+.idea/
+.vscode/
+
+# Archivos de sistema
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de prueba
+*.test.js
+*.spec.js
+
+# Archivos de configuración de la aplicación
+.env
+.env.local
+.env.*.local
+
+# Otros
+*.bak
+*.orig
+*.rej
+*.tmp
+*.pid
+*.seed
+
+# Directorios de pruebas y cachés
+/coverage
+/.next
+/.nuxt
+/.cache
+/.pytest_cache
+
+# Archivos generados por el sistema de construcción
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos de salida de compiladores y herramientas
+*.pyc
+*.pyo
+*.pyd
+*.class
+
+# Archivos de configuración específicos de OS
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Dependencias de Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Configuraciones de Docker
+.dockerignore
+Dockerfile
+docker-compose.yml

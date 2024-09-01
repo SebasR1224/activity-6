@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adopet">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#5B53D1">
+
+    <title>Ferxxo App</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/18d9640215.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+    <audio id="dailyAudio" src="assets/audio/welcome.mpeg"></audio>
+    <main class="container">
+        <img src="assets/img/ferxxo.png" alt="Imagen de persona" class="background-image">
+
+        <div class="title">
+            <img src="assets/img/logo.webp" class="logo" alt="">
+            <h1>Ferxxo App</h1>
+        </div>
+
+        <section class="profile">
+            <div id="date"></div>
+            <h2>Hola Mor, Cómo estás?</h2>
+            <span>Por qué tan perdido pues?</span>
+        </section>
+
+        <section class="add-task">
+            <input type="text" id="input" placeholder="Que hay pa' hacer?">
+            <i class="fas fa-plus-circle" id="send-button" ></i>
+        </section>
+
+        <section class="list-task">
+            <h2>Tareas por hacer mi niño:</h2>
+            <ul id="list"></ul>
+        </section>
+    </main>
+    <div id="textDisplay"></div>
+
+    <footer>
+
+    </footer>
+    <!-- Additional JS Files -->
+    <script src="assets/js/main.js"></script>
+    <!-- welcome JS -->
+    <script src="assets/js/welcome.js"></script>
+</body>
+</html>
